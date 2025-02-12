@@ -19,9 +19,9 @@ ul{
 .first-section{
   background-color: #554BAB;
 }
+
 .card-container{
   width: 220px;
-  
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -42,7 +42,6 @@ ul{
 }
 
 .card-body .card-title{
-  
   font-weight: 600;
   line-height: 1.45em;
   color: #37335d;
@@ -63,8 +62,6 @@ ul{
 .second-section{
   margin-top: 20px;
   background-color: #eaecf9;
-  
-  
 }
 .second-section .card-container{
   margin: auto;
