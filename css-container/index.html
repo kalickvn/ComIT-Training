@@ -1,17 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Card Container</title>
-    <link href="./main.css" rel='stylesheet' type='text/css'>
+    <link href="./main.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-
     <main>
       <section class="section-container first-section">
         <ul>
           <li>
+            <!-- i recommend learning more about <article></article> -->
+            <!-- and more accessible HTML tags -->
             <div class="card-container">
               <div class="card-header">
                 <div class="date-time-format"><i>MAY 04</i></div>
@@ -43,6 +44,10 @@
             <div class="card-title">
               Microsoft Patch Management For Home Users
             </div>
+            <!-- I highly suggest starting to use more semantic tags -->
+            <!-- like date, small, p. Your markup right now hurts -->
+            <!-- accessibility a lot and not many people would be able to -->
+            <!-- use your site -->
             <div class="card-footer">
               <div>09:00 - 11:00</div>
               <div>Online</div>
@@ -54,10 +59,15 @@
         </div>
       </section>
 
-      <section class="footer-section" >
+      <section class="footer-section">
+        <!-- Divs do not have any meaning and in this case -->
+        <!-- this should be a <button></button> or  -->
+        <!-- at least a <p></p> since it is not functional yet. -->
+        <!-- If it is functional, then it should be a <button></button> -->
+        <!-- since it will cause the browser to load more cards therefore -->
+        <!-- more interactive -->
         <div class="load-more">LOAD MORE EVENTS</div>
       </section>
     </main>
-
   </body>
 </html>
