@@ -101,10 +101,11 @@ body {
 }
 
 .progress-bar{
-  width: 60%;
+  width: 70%;
   background-color: #FE8C01;
-  height: 10px;
-  border-radius: 10px;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;;
 }
 .right-text {
   text-align: right;
