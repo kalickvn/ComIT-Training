@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
 }
 .section-pricing {
-  width: 85%;
+  width: 87%;
   margin: auto;
 }
 .section-header {
@@ -44,6 +44,8 @@ body {
   display: inline-block;
   text-align: center;
   max-width: 195px;
+  margin: 10px;
+  vertical-align: top;
 }
 .plan-img {
   padding-top: 30px;
@@ -53,11 +55,15 @@ body {
 .plan-title {
   color: #6C63AE;
   padding-top: 30px;
+  font-size: 1.3em;
 }
 
 .plan-desc {
   color: #A7A1A1;
   font-size: small;
+  width: 80%;
+  text-align: center;
+  margin: auto;
 }
 
 .plan-type {
@@ -65,11 +71,17 @@ body {
   padding-bottom: 30px;
   text-decoration: none;
   cursor: pointer;
+  font-size: 1em;
 }
 .plan-type:hover{
   text-decoration: underline;
 }
-
+.plan-enterprise-title {
+  margin-block-end: 0.53em;
+}
+.plan-type-enterprise {
+  padding-bottom: 21px;
+}
 .btn-default {
   display: block;
   border: 2px solid #6A64AD;
@@ -82,8 +94,7 @@ body {
 
 .active-plan {
   background-color: #7069b9;
-  margin-left: 10px;
-  margin-right: 10pxa;
+  
 }
 .text-white {
   color: white;
@@ -113,5 +124,5 @@ body {
 .btn-see-all-subs:active {
   box-shadow: none;
   cursor: pointer;
-  transform: translateY(4px);
+  transform: scale(0.95);
 }
